@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import './Intro.css';
-import astronaut from './astronaut.png'; // Ensure you have the image in the correct path
+import astronaut from './astronaut.png';
 
 function Intro() {
     const [jobTitle, setJobTitle] = useState('Software Developer');
     const [letterIndex, setLetterIndex] = useState(0);
     const jobTitles = ['Software Developer', 'AI Engineer', 'Robotic Engineer'];
     const [currentTitleIndex, setCurrentTitleIndex] = useState(0);
-    const [delay, setDelay] = useState(150); // Initial delay is 150ms
+    const [delay, setDelay] = useState(150);
 
     useEffect(() => {
         const timer = setInterval(() => {

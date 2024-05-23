@@ -1,11 +1,13 @@
 .header {
     display: flex;
-    /*position: fixed;*/
+    position: sticky;
     justify-content: space-between;
     align-items: center;
     padding: 10px 50px;
     background-color: #0d1b2a; /* Dark background color */
     color: #fff;
+    /*position: fixed;*/
+    min-height: 10vh;
 }
 
 .logo h1 {
@@ -46,4 +48,15 @@
 
 .nav-links a:hover::after {
     width: 100%;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding-top: 70px; /* Adjust this value based on your header height */
 }
