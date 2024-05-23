@@ -1,0 +1,53 @@
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10em;
+    padding-right: 10em;
+    background-color: #0d1b2a; /* Dark background color */
+    color: #fff;
+    min-height: 100vh;
+}
+
+.intro-text {
+    text-align: left;
+    max-width: 100%;
+}
+
+.intro-text p {
+    font-size: 2.3em;
+    margin: 0.5em 0;
+}
+
+.intro-text h1 {
+    font-size: 3.5em;
+    margin: 0.5em 0;
+}
+
+.name-highlight {
+    color: #8a4af3; /* Purple color */
+}
+
+.intro-image {
+    max-width: 25%; /* Adjust this value as per your requirement */
+}
+
+.intro-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+    }
+
+    .intro-text {
+        max-width: 100%;
+    }
+
+    .intro-image img {
+        max-width: 100%;
+    }
+}
