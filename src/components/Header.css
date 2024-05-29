@@ -16,7 +16,7 @@
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 5em;
 }
 
 .nav-links li {
@@ -30,7 +30,7 @@
     color: #fff;
     display: flex;
     align-items: center;
-    gap: 50px;
+    /*gap: 50px;*/
     font-size: 18px;
 }
 

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 100px; /* Adjust these values to reduce the space inside the footer */
+    padding: 0px 100px;
     background-color: #0d1b2a;
     color: #fff;
     min-height: 10vh;
@@ -15,7 +15,7 @@
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 15px; /* Adjust this value to reduce the space between nav links */
+    /*gap: 55px;*/
 }
 
 .nav-links li {
@@ -23,13 +23,13 @@
     align-items: center;
 }
 
-.nav-links a {
+.nav-links{
     position: relative;
     text-decoration: none;
     color: #fff;
     display: flex;
     align-items: center;
-    gap: 5px;
+    /*gap: 5px;*/
     font-size: 18px;
 }
 
